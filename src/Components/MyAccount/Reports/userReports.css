@@ -1,0 +1,9 @@
+.userReports{
+    margin: 5px;
+    height: 300px;
+    width: 20%;
+    /* border: 1px solid black; */
+    background: #FDFDFF;
+    -moz-box-shadow: 0px 0px 10px #555;
+    box-shadow: 5px 5px 5px black;
+}

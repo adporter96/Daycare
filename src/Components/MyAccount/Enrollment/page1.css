@@ -1,0 +1,41 @@
+.EnrollBackground {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(255, 255, 255) !important;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Page1Layout {
+    height: 400px;
+    width: 300px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 40px;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.EnrollSummary{
+    height: 50px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+}
+.Button {
+    display:  flex;
+    justify-content: space-around;
+    width: 300px;
+    height: 25px;
+}
+
+.Page1 {
+    color: rgb(0, 0, 0);
+}

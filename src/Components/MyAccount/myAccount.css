@@ -1,0 +1,70 @@
+.Homepage {
+  display: flex;
+  background: white !important;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.Welcome {
+  height: 30px;
+  width: 100%;
+}
+
+.accountNavbar{ 
+    height: 100vh;;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    background: #F4CAE0;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+.notifications{
+  height: 300px;
+  width: 300px;
+  display: flex;
+  border: 1px solid black;
+}
+
+.Option{
+    height: 40px;
+    width: 100px;
+    display:  flex;
+    justify-content: flex-start;
+    background: transparent;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;  
+  }
+  
+  .Option:hover {
+    color: #62BFED;
+  }
+  .Option:after{
+    background: none repeat scroll 0 0
+    transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #62BFED;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  
+  .Option:hover:after {
+    border-bottom: 1px solid #62BFED;
+    width: 100%;
+    left: 0;
+  }
+
+  .reportCard {
+    height: 500px;
+    width: 500px;
+    border: 1px solid white;
+  }

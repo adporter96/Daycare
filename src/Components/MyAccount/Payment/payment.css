@@ -1,0 +1,13 @@
+.paymentCard{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  flex-direction: column;
+    align-items: center;
+    height:200px;
+    width: 380px;
+  background: rgb(231, 231, 231);
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px rgba(41, 40, 40, 0.678);
+  }

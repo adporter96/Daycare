@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.OptionAdmin{
+    height: 40px;
+    width: 100px;
+    background: transparent;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    color: black;
+    outline: none;
+    padding: 10px;
+}
+
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid black; */
+    background: #FDFDFF;
+    -moz-box-shadow: 0px 0px 10px #555;
+    box-shadow: 5px 5px 5px black;
+  
+  }

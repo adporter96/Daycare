@@ -1,0 +1,130 @@
+
+
+
+.Navbar {
+  height: 10px;
+  width: 100vw;
+  display: flex;
+  flex-direction: center;
+  justify-content: flex-end;
+}
+
+.OptionHome{
+  height: 40px;
+  width: 100px;
+  background: transparent;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  color: black;
+  margin-top: 20px;
+
+  padding: 10px;
+}
+
+.OptionHome:hover {
+  color: rgba(20, 114, 221, 0.829);
+}
+.OptionHome:after{
+  background: none repeat scroll 0 0
+  transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: rgba(20, 114, 221, 0.829);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.OptionHome:hover:after {
+  border-bottom: 3px solid rgba(20, 114, 221, 0.829);
+  width: 100%;
+  left: 0;
+}
+
+
+.column {
+  margin: 5px;
+  height: 100%;
+  width: 20%;
+  /* border: 1px solid black; */
+  background: #FDFDFF;
+  -moz-box-shadow: 0px 0px 10px #555;
+  box-shadow: 5px 5px 5px black;
+
+}
+
+.column:hover {
+  color: red;
+}
+.column:after{
+  background: none repeat scroll 0 0
+  transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: red;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.column:hover:after {
+  border-bottom: 3px solid red;
+  width: 100%;
+  left: 0;
+}
+
+.mainContent {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  width: 100vw;
+  flex-direction: row;
+  background: white;
+  
+
+}
+
+.columnCenter {
+  margin: 5px;
+  height: 100%;
+  width: 60%;
+  /* border: 1px solid black; */
+  background: #FDFDFF;
+  box-shadow: 5px 5px 5px black;
+}
+
+.columnCenter:hover {
+  color: rgba(0, 47, 255, 0.795);
+}
+.columnCenter:after{
+  background: none repeat scroll 0 0
+  transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: rgba(0, 47, 255, 0.795);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.columnCenter:hover:after {
+  border-bottom: 3px solid rgba(0, 47, 255, 0.795);
+  width: 100%;
+  left: 0;
+}
+
+

@@ -1,0 +1,66 @@
+.users {
+    display: flex;
+    flex-direction: row;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    height: 750px;
+    overflow: auto
+}
+.userInfo {
+    display: flex;
+    justify-content: space-evenly;
+    height: 20px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.email{
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 20px;
+    width: 250px;
+    border: 1px solid black;
+}
+
+.reportCard {
+    height: 200px;
+    width: 200px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+
+    border: 1px solid black;
+}
+
+
+.usersContainer{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 500px;
+    overflow: auto;
+}
+
+.inputTitle {
+    height: 10px;
+    width: 100px;
+}
+
+.descriptionBox{
+    height: 100px;
+    width: 250px;
+    resize:none;
+}
+
+.submitReport{
+    width: 50px;
+    height: 25px;
+}

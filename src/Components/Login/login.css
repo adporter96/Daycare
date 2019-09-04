@@ -1,0 +1,63 @@
+  
+  .loginParent{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+
+  .loginCard{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  flex-direction: column;
+    align-items: center;
+    height:520px;
+    width: 380px;
+  background: rgb(231, 231, 231);
+    border: 2px solid black;
+    border-radius: 45px;
+    box-shadow: 6px 6px 6px rgba(41, 40, 40, 0.678);
+  }
+
+  .LoginHeader{
+    color: black;
+    font-size: 25px;
+  }
+ 
+  .Input {
+    border: 1px solid black;
+    width: 300px;
+    height: 50px;
+    border-radius: 33px;
+    box-shadow: 0px 2px 2px rgb(57, 63, 58);
+    margin: 25px;
+    text-align: center;
+    background: #FDFDFF;
+    color: black;
+    outline: none;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .Submit {
+    width: 300px;
+    height: 50px;
+    border-radius: 33px;
+    box-shadow: 0px 2px 2px black;
+    margin: 25px;
+    text-align: center;
+    background: #FDFDFF;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .Submit:hover {
+    text-decoration: underline;
+    font-size: 20px;
+  }
